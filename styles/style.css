@@ -228,6 +228,23 @@
     position:absolute;
 }
 
+.kaufman {
+
+}
+
+.section-title_theme_dark {
+
+}
+
+.section-subtitle_theme_dark {
+
+}
+
+.table_theme_dark {
+
+}
+
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
     width: 200px;
@@ -235,4 +252,13 @@
     margin-right: 0;
     color: white;
 }
+
+.table__heading_theme_dark {
+
+}
+
+.table__text_theme_dark {
+
+}
+
 
