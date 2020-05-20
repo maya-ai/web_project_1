@@ -1,40 +1,42 @@
-
 .page {
-    min-width: 1100px;
     /* we don't know how to make mobile versions of websites yet, */
     /* so here we've set a minimum page width */
-    max-width: 1600px;
+    min-width: 1100px;
+
     /* here we've set a maximum page width */
-    margin: 0 auto;
+    max-width: 1600px;
+
     /* this ensures that all content is centered on screens wider than 1600px */
+    margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
+    /* parameters for the header section */
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    position: relative;
+    margin-bottom: 100px;
     background-color: #F2F2F2;
+    z-index: -2;
     display: flex;
-    /* parameters for the header section */
+    position: relative;
+    align-items: center;
+    
 }
 
 .logo_place_header {
     height: 31px;
     width: 154px;
-    position: absolute;
     top: 30px;
     left: 64px;
+    z-index: 1;
+    position: absolute;
 }
 
 .header__title {
     width: 730px;
-    margin-top: 250px;
-    margin-left: 64px;
-    display: flex;
-    position: absolute;
-    align-items: center;
+    padding-left: 64px;
     font-size: 102px;
     line-height: 96px;
     font-weight: bold;
@@ -42,48 +44,98 @@
 
 .header__subtitle {
     width: 388px;
-    position: absolute;
-    bottom: 40px;
-    left: 64px;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: normal;
-}
-
-.header__link {
-    width: 388px;
     bottom: 30px;
     left: 64px;
     font-size: 18px;
     line-height: 25px;
+    z-index: 1;
     font-weight: normal;
-    color: #2F80ED;
+    position: absolute;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
     height: 608px;
     width: 765px;
-    position: absolute;
     bottom: 0;
     right: 0;
     z-index: 1;
+    position: absolute;
   }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
     height: 568px;
     width: 568px;
-    position: absolute;
-    background-color: #2F80ED;
     top: 64px;
     right: 0;
-    z-index: 0;   
+    z-index: -1;  
+    background-color: #2F80ED; 
+    position: absolute;
 }
 
+.content {
+    padding: 100px auto;
+  }
+  
+.description {
+    min-width: 784px;
+    margin-bottom: 100px;
+  }
+  
+.two-columns {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.two-columns__brief {
+    width: 175px;
+    margin: 0;
+    padding-right: 50px;
+    line-height: 1.2;
+    font-size: 18px;
+    color: #2F80ED;
+    text-align: start;
+    font-weight: normal;
+  }
+  
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+.two-columns__paragraph {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 34px;
+    font-size: 24px;
+    list-style: none;
+    font-weight: normal; 
+  }
+  
+.two-columns__paragraph:last-child {
+    margin-bottom: 0;
+  }
+  
+.two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
     width: 200px;
-    color: white;
     margin-top: 80px;
     margin-right: 0;
+    color: white;
 }
+
