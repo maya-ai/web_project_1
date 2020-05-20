@@ -65,7 +65,7 @@
     right: 0;
     z-index: 1;
     position: absolute;
-  }
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
@@ -80,19 +80,19 @@
 
 .content {
     padding: 100px auto;
-  }
+}
   
 .description {
     min-width: 784px;
     margin-bottom: 100px;
-  }
+}
   
 .two-columns {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-  }
+}
 
 .two-columns__brief {
     width: 175px;
@@ -101,16 +101,16 @@
     line-height: 1.2;
     font-size: 18px;
     color: #2F80ED;
-    text-align: start;
     font-weight: normal;
-  }
+    text-align: start;
+}
   
 .two-columns__main-text {
     width: 80%;
     min-width: 784px;
     margin: 0;
     flex-direction: column;
-  }
+}
   
 .two-columns__paragraph {
     margin-top: 0;
@@ -119,17 +119,74 @@
     font-size: 24px;
     list-style: none;
     font-weight: normal; 
-  }
+}
   
 .two-columns__paragraph:last-child {
     margin-bottom: 0;
-  }
+}
   
 .two-columns__span-accent {
     line-height: 34px;
     font-size: 24px;
     font-weight: bold;
-  }
+}
+
+.digits {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.section-title {
+    width:60%;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+.section-subtitle {
+    width:60%;
+    line-height:34px;
+    font-size:24px;
+    margin: 20px auto 0 auto;
+    font-weight:normal;
+    text-align:center;
+}
+  
+.table {
+    width:1100px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+    justify-content:space-between; 
+}
+  
+.table__cell {
+    width:250px;
+    margin-top:60px;
+}
+  
+.table__heading {
+    margin-bottom:20px;
+    line-height:1.15;
+    font-size:24px;
+    font-weight:bold;
+}
+  
+.table__text {
+    line-height:1.2;
+    font-size:18px;
+    margin-bottom:20px;
+    font-weight: normal;
+}
   
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
