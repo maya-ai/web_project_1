@@ -187,7 +187,23 @@
     margin-bottom:20px;
     font-weight: normal;
 }
-  
+
+.feynman {
+
+}
+
+.feynman__title {
+
+}
+
+.feynman__subtitle {
+
+}
+
+.feynman__link {
+
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
     width: 200px;
