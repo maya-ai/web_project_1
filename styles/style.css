@@ -17,7 +17,7 @@
     min-height: 600px;
     max-height: 756px;
     margin-bottom: 100px;
-    z-index: -2;
+    z-index: 0;
     background-color: #F2F2F2;
     display: flex;
     position: relative;
@@ -85,6 +85,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .two-columns__brief {
@@ -227,10 +228,10 @@
 
 .kaufman {
     padding-bottom: 90px;
-    z-index: -2;
+    z-index: 0;
     background-color: #1f1f1f;
     background-size: 877px 877px;
-    background-position: top 0px right -150px;
+    background-position: top 0 right -150px;
     background-image: url('../images/kaufman-triangle.png');
     background-repeat: no-repeat;
     display: flex;
@@ -266,14 +267,12 @@
     padding-top: 60px;
     margin-bottom: 0;
     background-color:  #1f1f1f;
-    margin: 0 auto;
 }
 
 .footer__columns {
     height: 250px;
     width: 90%;
     margin-bottom: 40px;
-    margin: 0 auto;
     display: flex;
 }
 
