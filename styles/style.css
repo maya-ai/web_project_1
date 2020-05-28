@@ -265,6 +265,7 @@
 .footer {
     min-height: 350px;
     padding-top: 60px;
+    margin: 0 auto;
     margin-bottom: 0;
     background-color:  #1f1f1f;
 }
@@ -272,6 +273,7 @@
 .footer__columns {
     height: 250px;
     width: 90%;
+    margin: 0 auto;
     margin-bottom: 40px;
     display: flex;
 }
